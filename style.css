@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=Jura:wght@400;700&display=swap');
+
+* {
+    font-family: 'Jura', 'IBM Plex Mono', Arial;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #D1D1D1;
+}
+
+.container {
+    background: #383838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.container h1 {
+    color: #ffffff;
+}
+
+#title {
+    font-size: 0.8rem;
+}
+
+#startBtn, #stopBtn, #resetBtn {
+    cursor: pointer;
+    font-weight: 700;
+    padding: 4px;
+}
+
+#startBtn:hover, #stopBtn:hover, #resetBtn:hover {
+    background: sandybrown;
+}
